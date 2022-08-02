@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./cupones.html">Cupones</a></li>
+                <li><a href="./pago.html">Pago</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+
+            </ul>
+            
+        </nav>
+
+    </header>
+    <main class="contacto">
+        <section>
+            <hr>
+            <h1>Registrese</h1>
+            <div>
+                <form action="/formulario" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                    <br>
+                    <label for="apellido">Apellido:</label>
+                    <br>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido." required>
+                    <br>
+                    <label for="email">Ingrese su email:</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+                    <br>
+                    <label for="contraseña">Ingrese su contraseña</label>
+                    <br>
+                    <input type="password" name="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+                    <br>
+                    <label for="genero">Indique su genero</label>
+                    <br>
+                    <label for="genero">Masculino</label>
+                    <input type="radio" name="genero" id="genero" placeholder="Masculino">
+                    <br>
+                    <label for="genero">Femenino</label>
+                    <input type="radio" name="genero" id="genero" placeholder="Femenino">
+                    <br>
+                    <label for="genero">Otro</label>
+                    <input type="radio" name="genero" id="genero" placeholder="Otro">
+                    <br>
+                    <label for="pais">Indique su pais:</label>
+                    <select name="pais" id="pais" >
+                        <option value="Argentina">Argentina</option><br>
+                        <option value="Brasil">Brasil</option><br>
+                        <option value="Chile">Chile</option><br>
+                        <option value="Mexico">Mexico</option><br>
+                    </select>
+                    <br>
+                    <label for="documento">Documento:</label>
+                    <input type="file" name="documento" id="documento" placeholder="Seleccione un archivo">
+                    <br>
+                    <label for="comentario">Escribe un comentario</label><br>
+                    <textarea name="comentario" id="comentario" placeholder="Ingrese su comentario"></textarea>
+                    <br>
+                    <button type="button">Registarse</button>
+
+                    
+        
+
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <img src="../img/logo.png" alt="logo"> <!--Logo-->
+        <section>
+            <div class="informacion"><!--Informacion-->
+                <h2>Información</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, suscipit?</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Lorem, ipsum.</p>
+                <hr>
+
+            </div><!--Redes sociales-->
+            <div class="redes">
+                <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook.png" alt="facebook" width="300" height="250" class="imagenesredes"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.png" alt="instagram" width="300" height="250" class="imagenesredes"></a>
+                <a href="https://web.whatsapp.com" target="_blank"><img src="../img/whatsapp.png" alt="whatsapp" width="300" height="250" class="imagenesredes"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="../img/twitter.png" alt="twitter" width="300" height="250" class="imagenesredes"></a>
+
+            </div>
+
+
+                
+        </section>
+
+
+
+    </footer>
+
+</body>
+</html>
