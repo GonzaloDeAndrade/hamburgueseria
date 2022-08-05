@@ -4,58 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./cupones.html">Cupones</a></li>
-                <li><a href="./pago.html">Pago</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-
-            </ul>
-            <hr>
-        </nav>
-
-    </header>
+            <section class="barradenav">
+            <nav class="navbar navbar-expand-lg navbar-light bg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-between align-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html" class="textitos">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./menu.html" class="textitos">Menu</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="textitos">
+                           Secciones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./cupones.html">Cupones</a></li>
+                          <li><a class="dropdown-item" href="./pago.html">Pago</a></li>
+                         
+                          <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <div class="buscador "></div>
+                    <form class="d-flex">
+                      <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-light " type="submit">Buscar</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </section>
+        </header>
     <main>
-        <div class="grid-container"> <!--Container de los menu-->
-            <div class="grid-item"><!--Menu-->
-                <a href="./pago.html"><img src="../img/hamburguesacompleta.jpg" alt=""></a>
-                <h2>Hamburguesa Completa</h2>
-                <p>Contiene lechuga, tomate, queso, huevo y una salsa</p>
-            </div>
-            <div class="grid-item"><!--Menu-->
-                <a href="./pago.html"><img src="../img/hamburguesapepinillos.jpg" alt=""></a>
-                <h2>Hamburguesa Pepinillos</h2>
-                <p>Contiene Pepinillos condimentados</p>
-            </div>
-            <div class="grid-item"><!--Menu-->
-                <a href="./pago.html"><img src="../img/hamburguesasalsaespecial.jpg" alt=""></a>
-                <h2>Hamburguesa Salsa Especial</h2>
-                <p>Contiene Salsa especial de la casa de multiples sabores</p>
-            </div>
-            <div class="grid-item"><!--Menu-->
-                <a href="./pago.html"><img src="../img/hamburguesabacon.jpg" alt=""></a>
-                <h2>Hamburguesa Bacon</h2>
-                <p>Contiene extra de tocino ahumado</p>
-            </div>
-            <div class="grid-item"><!--Menu-->
-                <a href="./pago.html"><img src="../img/hamburguesadepollo.jpg" alt=""></a>
-                <h2>Hamburguesa de pollo</h2>
-                <p>Contiene pollo crispy condimentado y salteado</p>
-            </div>
-            <div class="grid-item" ><!--Menu-->
-                <a href="./pago.html"><img src="../img/hamburguesadelacasa.jpg" alt="" ></a>
-                <h2 class="coderburgertext">Hamburguesa Coder</h2>
-                <p class="codertext">Hamburguesa de la casa. Prueba y sorprendete con un toque Coder</p>
-            </div><!--Menu-->
+        <section class="container my-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/hamburguesadelacasa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hamburguesa 1</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./pago.html" class="btn btn-primary">Adquirir</a>
+                        </div>
+                      </div>
 
-        </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    
+                        <img src="../img/hamburguesapepinillos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hamburguesa 2 </h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./pago.html" class="btn btn-primary">Adquirir</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/hamburguesasalsaespecial.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="./pago.html" class="btn btn-primary">Adquirir</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/hamburguesadepollo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hamburguesa 4</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./pago.html" class="btn btn-primary">Adquirir</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/hamburguesacompleta.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hamburguesa 5</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./pago.html" class="btn btn-primary">Adquirir</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/hamburguesabacon.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hamburguesa 6</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./pago.html" class="btn btn-primary">Adquirir</a>
+                        </div>
+                      </div>
+
+                </div>
+                
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </section>
        
 
         
@@ -87,6 +164,7 @@
 
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
