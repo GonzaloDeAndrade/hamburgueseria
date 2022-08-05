@@ -46,6 +46,9 @@ header nav ul li a{
     
     
 } */
+
+
+/*--Boostrap--*/
 header{
     background-image: linear-gradient(to right, rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.459));
     position: sticky;
