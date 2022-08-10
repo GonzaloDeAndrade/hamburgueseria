@@ -97,7 +97,8 @@ header{
     background-color: black;
     border-radius: 100%;
 }
-.card-img-top{
+/*CSS de Bootsrap de Menu anterior*/
+/* .card-img-top{
     width: 18rem;
     height: 250px;
     object-fit: cover;
@@ -112,7 +113,7 @@ header{
 }
 .card:hover{
     transform: scale(1.1);
-}
+} */
 /*--AnimacionAGregada--*/
 /* header nav ul li:hover{
     transform: scale(1.2);
@@ -259,6 +260,8 @@ header{
 
 
 }
+
+
 /*---------------MAIN SECCION MENU------------------MODIFICADA CON GRIDS*/
 /*--.menu-container{
     display:flex;
@@ -460,7 +463,7 @@ margin-right: 10px;
 }
 .grid-item h2{
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
     color: white;
     background-color: rgba(0, 0, 0, 0.62);
     width: 100%;
@@ -473,6 +476,8 @@ margin-right: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.62);
     width: 100%;
+    margin: 0%;
+    transition: 1s;
     
 }
 
