@@ -1,0 +1,772 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*TIPOGRAFIA DETERMINADA*/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 228, 193);
+}
+/*--------HEADER--------*/
+/* header{
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.459));
+    position: sticky;
+    z-index: 10;
+    top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-end;
+    
+    
+
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+header nav ul li{
+    
+    
+    
+    margin-bottom: 10px;
+
+    margin-left: 10px;
+    margin-right: 100px;
+    transition: 1s;
+}
+header nav ul li a{
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+    font: weight 10px;
+    
+    
+} */
+
+
+/*--Boostrap--*/
+header{
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.459));
+    position: sticky;
+    z-index: 10;
+    top: 0%;
+    font-family: l ;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+
+.nav-item{
+    margin-left:20px ;
+    
+}
+.navbar{
+    padding-top: 0%;
+}
+.navbar-brand{
+    height: 70px;
+    object-fit: contain;
+    padding: 0%;
+}
+.navbar-brand img{
+    width: 300px;
+    
+    height: 90px;
+    align-items: center;
+    
+}
+.burgerking{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+.carousel-indicators{
+    background-color: rgba(0, 0, 0, 0.552);
+    
+    
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 100%;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 100%;
+}
+/*CSS de Bootsrap de Menu anterior*/
+/* .card-img-top{
+    width: 18rem;
+    height: 250px;
+    object-fit: cover;
+}
+.card{
+    margin-bottom: 50px;
+    background-color: rgb(255, 173, 96);
+    transition: 1s;
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+}
+.card:hover{
+    transform: scale(1.1);
+} */
+/*--AnimacionAGregada--*/
+/* header nav ul li:hover{
+    transform: scale(1.2);
+    
+    
+} */
+
+.contacto{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(255, 228, 193);
+
+}
+.mainpago{
+    width: 100%;
+    height: 90vh;
+}
+
+.maincupones{
+    width: 100%;
+    height: 250vh
+}
+/*--------MAIN----------*/
+/*--.cupones{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fondodef.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}*/
+.cupones-titulo{
+    color: rgb(255, 205, 139);
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    
+    
+    letter-spacing: 10px;
+    line-height: 40px;
+    
+    background: rgb(165, 42, 42);
+    margin-bottom:0%;
+    
+}
+/* SECCION MODIFICADA CON GRIDS
+.cupones div div{
+    display:inline-block;
+    margin: 30px;
+    margin-left: 60px;
+    
+    width: 350px;
+    height: 380px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(255, 210, 112);
+}
+.cupones div div h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.cupones div div a {
+    text-decoration: none;
+    background-color: rgb(216, 145, 39);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.cupones div img
+{   border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 350px;
+    height: 300px;
+
+}
+
+.cupones-vertodo{
+    background-color: rgb(255, 159, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0% 0% 40% 70%;
+    text-decoration: none;
+    position:relative;
+    /* left:80%; */
+   /* font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    border-radius: 15px;
+}*/
+    
+    
+
+.boton-fixed img{
+    width: 80px;
+    height: 80px;
+    position:fixed;
+    bottom: 80px;
+    right: 40px;
+}
+/*-------MAIN SECCION CUPONES--------------*/
+.imagencupon{
+    margin-left: 8%;
+}
+.cupones-precios{
+    
+    width: 100%;
+    height: 90vh;
+    
+}
+.cupones-precios div div{
+    display:inline-block;
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 70px;
+    
+    width: 350px;
+    height: 380px;
+    text-align:justify;
+}
+.cupones-precios div div h2{
+    text-align: center;
+    margin-left: 15%;
+}
+.cupones-precios div table{
+    background-color: rgb(255, 210, 112);
+}
+.cupones-precios div a{
+    text-decoration: none;
+    background-color: rgb(216, 145, 39);
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    
+    margin-left: 45%;
+    margin-bottom: 2%;
+    
+
+
+}
+
+
+/*---------------MAIN SECCION MENU------------------MODIFICADA CON GRIDS*/
+/*--.menu-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-container div{
+    border: 2px solid rgb(255, 142, 104);
+    background-color: rgb(255, 146, 87);
+    border-radius: 5px;
+    margin:8px;
+    width: 400px;
+    
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu-container div h2{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    
+}
+
+.menu-container a img{
+    width: 395px;
+
+    height: 300px;
+    border-radius: 5px;
+    
+}
+/*------MAIN SECCION PAGO-----*/
+.pago{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.pago-container{
+    background-color: peru;
+    width: 65%;
+    padding: 5% 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+.pago h3{
+   
+    
+        font-size: 24px;
+        line-height: 10px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        padding:5% 0% 5% 0%;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+   
+}
+.pago-container input{
+    
+        width: 100%;
+        min-height: 25px;
+        border: 0;
+        font-size: 1rem;
+        letter-spacing: .15rem;
+        font-family: "Arimo";
+        margin-top: 5px;
+        color: maroon;
+        border-radius: 4px;
+    }
+
+    .pago-container label {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: maroon;
+    }
+    .pago-nombreyapellido{
+    
+        
+            justify-content: space-between;
+            display: flex;
+            width: 100%;
+    }
+    .pago-nombreyapellido div{
+             width: 45%;
+           
+        }
+        .pago-calle {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+                margin-top:10px;
+                flex-direction: column;
+            
+            }
+        
+        
+      
+       
+        .pago-lugar {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .pago-lugar div {
+                width: 45%;
+                margin: 10px;
+            
+        }
+        .botones{
+            display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+        }
+        .botones button{
+            margin: 3px 0;
+        height: 30px;
+        width: 40%;
+        color: #cfc9e1;
+        background-color: #3f0000;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: .3rem;
+        letter-spacing: 2px;
+        }
+    .pago-container form h3{
+        
+            text-align: center;
+    
+    }
+
+
+/*--------FOOTER--------*/
+footer {
+    background-color: rgba(255, 146, 5, 0.932);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer section div img{
+    width: 100px;
+    height: 100px;
+}
+/*----GRID-------------*/
+/*----MENU PAGINA GRID----------*/
+.grid-container{
+    display: grid;
+    margin-top: 2%;
+    width: 100%;
+    height: 110vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+    row-gap: 60px;
+    
+    
+    
+    
+}
+.grid-container div{
+    box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+transition: 1s;
+
+margin-right: 10px;
+
+
+}/*--AnimacionAgregada--*/
+.grid-container div:hover{
+    transform: scale(1.1);
+    margin-left: 30px;
+    
+}
+.grid-container div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:1s;
+    
+}
+.grid-container div img:hover{
+    filter: blur(1px);
+-webkit-filter: blur(1px);
+-moz-filter: blur(1px);
+}
+
+.grid-item{
+    position: relative;
+}
+.grid-item h2{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 100%;
+    font-size:30px;
+    
+}
+.grid-item p{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 100%;
+    margin: 0%;
+    transition: 1s;
+    
+}
+
+/*----GRID INDEX SECCION CUPONES---------*/
+.grid-cupones{
+    width: 100%;
+    height: 100vh;
+    
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+    background-image: url("../img/fondodef.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-items: center;
+    
+}
+.grid-cupones div img{
+    width: 100%;
+    height: 300px;
+    
+    box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+    
+}
+.grid-cupones div  {
+    background-color: chocolate;
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    margin-top:110px;
+    transition: 1s;
+    
+}
+.grid-cupones div:hover{
+    transform: scale(1.1);
+}
+.grid-cupones div a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 5px;
+    position: absolute;
+    
+    font-weight: lighter;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    bottom: 0;
+    left: 30%;
+    margin-bottom: 10px;
+}
+/*media queries*/
+/*----MEDIA QUERIES HEADER---*/
+@media screen and (max-width:799px){
+    header{
+        
+        flex-direction: column;
+        align-items: flex-start;
+    }   
+    header nav ul li{
+        margin-right: 10;
+        margin-left: 10; 
+    }
+}
+@media screen and (max-width:728px){
+    
+    header{
+        position: static;
+        background-color: rgb(255, 147, 5);
+    }
+    header nav ul li{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:525px){
+    header nav ul{
+        flex-direction: column;
+        
+    }
+    header{
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:525px){
+    header img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:625px){
+    .publicidad{
+        width: 100%;
+    }
+}
+/*----MEDIA QUERIES SECCION CUPONES INDEZ-----*/
+@media screen and (max-width:1141px){
+    .grid-cupones{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 400px;
+        height: 1100px;
+    }
+}
+@media screen and (max-width:731px){
+    .grid-cupones{
+        grid-template-columns: 1fr;
+        height: 1500px;
+        
+    }
+    
+}
+@media screen and (max-width:355px){
+    .grid-cupones div{
+        width: 100%;
+    }
+    .grid-cupones div a{
+        left: 0;
+        width: 100%;
+    }
+}
+/*--MEDIA QUERIES EXTRA (VIDEO Y MAPA Y BOTON DE WHATSAPP)---*/
+@media screen and (max-width:731px){
+    .videoymapa{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1254px){
+    .boton-fixed img{
+        position: static;
+    }
+
+}
+/*---MEDIA QUERIES FOOTER----*/
+@media screen and (max-width:859px){
+    
+    
+    .imagenesredes{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width:648px){
+    
+    footer img{
+        width:200px;
+
+    }
+    .imagenesredes{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:456px){
+.informacion h2{
+    font-size: 20px;
+}
+.informacion p{
+    font-size: 10px;
+}
+}
+@media screen and (max-width:353px){
+    
+    footer{
+        display: inline-block;
+        width: 100%;
+    }
+}/*--MEDIA QUERIES PAGINA MENU--*/
+@media screen and (max-width:1307px){
+    .grid-container{
+        height: 1100px;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    
+        
+    }
+}
+@media screen and (max-width:864px){
+    .grid-container{
+
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+    height: 2000px;
+        
+    }
+    .grid-item{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+@media screen and (max-width:431px){
+    .grid-item h2{
+     top: 70%;
+    }
+}
+/*--MEDIA QUERIES PAGINA CUPONES--*/
+@media screen and (max-width:1418px){
+    .maincupones{
+        width: 100%;
+        height: 100vh;
+    }
+    }
+    @media screen and (max-width:1340px){
+    .maincupones{
+        width: 100%;
+        height: 150vh;
+    }
+    }
+    @media screen and (max-width:900px){
+        .maincupones{
+            width: 100%;
+            height: 250vh;
+        }
+        }
+@media screen and (max-width:495px){
+.imagencupon{
+    width:200px;
+    height: 150px;
+
+}
+}
+@media screen and (max-width:315px){
+    .imagencupon{
+        width: 150px;
+        height: 100px;
+    }
+    }
+    @media screen and (max-width:300px){
+        .imagencupon{
+            width: 100px;
+            height: 50px;
+            
+            
+        }
+    }
+    /*--MEDIA QUERIES PAGINA DE PAGO--*/
+    @media screen and (max-width:510px){
+        .pago-container {
+            
+            width: 100%;
+
+        }
+        .pago-container h3{
+            line-height: 20px;
+        }
+    
+    }
+    @media screen and (min-width:1250px){
+        .mainpago{
+            width: 100%;
+            height: 200vh;
+            
+        }
+        }
+    @media screen and (max-width:1250px){
+        .mainpago{
+            width: 100%;
+            height: 150vh;
+            
+        }
+        }
+    
+    @media screen and (max-width:306px){
+        .pago-container div{
+            flex-direction: column;
+
+        }
+    }
+    @media screen and (max-width:272px){
+        .botones button{
+            width: 100%;
+
+        }
+    }
+    /*--MEDIA QUERIES DE PAGINA DE CONTACTO--*/
+    @media screen and (max-width:310px){
+        .contacto section div form input{
+        display: flex;
+        flex-direction: column;
+          width: 100%;
+        }
+    }

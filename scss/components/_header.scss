@@ -1,0 +1,31 @@
+header{
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.459));
+    position: sticky;
+    z-index: 10;
+    top: 0%;
+    font-family: l ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    nav{
+        .nav-item{
+            margin-left:20px ;
+            
+            }
+        .navbar{
+            padding-top: 0%;
+            }
+        .navbar-brand{
+            height: 70px;
+            object-fit: contain;
+            padding: 0%;
+            img{
+                width: 300px;
+            
+                height: 90px;
+                align-items: center;
+            
+                }
+            }
+
+        } 
+    }
