@@ -1,3 +1,22 @@
+@import "../base/maps";
+@import "../base/extend";
+@import "../base/mixins";
+// header{
+//     background-color: map-get($boton , bg-boton );
+//     border: map-get($boton, border-boton: );
+    
+// } -- ASI QUEDARIA EL MAP APLICADO -- 
+
+// /* ASI QUEDARIA EL EXTEND APLICADO*/
+// // .grid-container{
+// //     @extend %flex;
+// // }
+
+// /*--ASI QUEDARIA EL MIXIN APLICADO*/
+// // .grid-container{
+// //     @include flex(flex, space-around,center);
+// // }
+
 header{
     background-image: linear-gradient(to right, rgba(255, 166, 0, 0.5),rgba(255, 0, 0, 0.459));
     position: sticky;
