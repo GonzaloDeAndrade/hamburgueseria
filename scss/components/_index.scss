@@ -1,0 +1,108 @@
+@import "../base/variables";
+
+
+/*--INDEX--*/
+/*--Boton wpp--*/
+.boton-fixed img{
+    width: 80px;
+    height: 80px;
+    position:fixed;
+    bottom: 80px;
+    right: 40px;
+}
+/*--Carousel--*/
+.burgerking{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+.carousel-indicator{
+    background-color: rgba(0, 0, 0, 0.552);
+}
+.carousel-control-prev-icon{
+    background-color: $color-negro;
+}
+.carousel-control-next-icon{
+    background-color: $color-negro;
+    border-radius:100%;
+}
+
+/*--Seccion de cupones del index--*/
+.cupones-titulo{
+    color: rgb(255, 205, 139);
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    
+    
+    letter-spacing: 10px;
+    line-height: 40px;
+    
+    background: rgb(165, 42, 42);
+    margin-bottom:0%;
+}
+
+.grid-cupones{
+    width: 100%;
+    height: 100vh;
+    
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+    background-image: url("../img/fondodef.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-items: center;
+        div{
+            background-color: chocolate;
+        width: 350px;
+        height: 380px;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+        position: relative;
+        margin-top:110px;
+        transition: 1s;
+            &:hover{
+            transform: scale(1.1);
+            margin-left: 30px;
+
+                }
+            img{
+                 width: 100%;
+                 height: 300px;
+                    
+                box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.75);
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                }
+            a   {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                background-color: rgba(0, 0, 0, 0.438);
+                padding: 5px;
+                position: absolute;
+                
+                font-weight: lighter;
+                letter-spacing: 3px;
+                border-radius: 3px;
+                bottom: 0;
+                left: 30%;
+                margin-bottom: 10px;
+                }
+
+        }
+
+
+
+
+}

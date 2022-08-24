@@ -1,0 +1,42 @@
+
+.maincupones{
+    width: 100%;
+    height: 250vh
+}
+.imagencupon{
+    margin-left: 8%;
+}
+.cupones-precios{
+    width: 100%;
+    height: 90vh;
+           div{
+            table{
+                background-color: rgb(255, 210, 112);
+            }
+            a{
+                text-decoration: none;
+                background-color: rgb(216, 145, 39);
+                color: white;
+                border-radius: 5px;
+                padding: 2px;
+                
+                margin-left: 45%;
+                margin-bottom: 2%;
+            }
+            div{
+                display:inline-block;
+                margin: 30px;
+                margin-left: 60px;
+                margin-top: 70px;
+                
+                width: 350px;
+                height: 380px;
+                text-align:justify;
+                h2{
+                    text-align: center;
+                    margin-left: 15%;
+                }
+            }
+
+            }
+}

@@ -1,0 +1,81 @@
+.pago{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    h3{
+        font-size: 24px;
+        line-height: 10px;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        padding:5% 0% 5% 0%;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+}
+.pago-container{
+    background-color: peru;
+    width: 65%;
+    padding: 5% 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    input{
+        width: 100%;
+        min-height: 25px;
+        border: 0;
+        font-size: 1rem;
+        letter-spacing: .15rem;
+        font-family: "Arimo";
+        margin-top: 5px;
+        color: maroon;
+        border-radius: 4px;
+    }
+    label{
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: maroon;
+    }
+    form{
+        h3{
+            text-align: center;
+        }
+    }
+}
+.pago-nombreyapellido{
+    justify-content: space-between;
+            display: flex;
+            width: 100%;
+            div{
+                width: 45%;
+            }
+}
+.pago-calle{
+    display: flex;
+            justify-content: space-between;
+            width: 100%;
+                margin-top:10px;
+                flex-direction: column;
+}
+.pago-lugar{
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 45%;
+        margin: 10px;
+            
+    }
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    button{
+        margin: 3px 0;
+        height: 30px;
+        width: 40%;
+        color: #cfc9e1;
+        background-color: #3f0000;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: .3rem;
+        letter-spacing: 2px;
+    }
+}

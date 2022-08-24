@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--AGREGADO DE FAVICON-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/backup.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Contactanos y responderemos a la brevedad</title> <!-- TITULO AGREGADO-->
     <!--DESCRIPCION-->
     <meta name="description" content="Contacto con el soporte y recibiras respuesta en un plazo de un maximo de 3 horas">
@@ -55,9 +55,73 @@
           </nav>
         </section>
     </header>
-    <main class="mainpago"> <!--Bootstrap de formulario de pago-->
+    
+    <main class="mainpago">
        
-        <form class="row g-3 needs-validation" novalidate>
+      <div class="pago">
+          <div class="pago-container">
+              <form action="">
+                  <h3>
+                      
+                      Detalles de envio
+                  </h3>
+                  <div class="pago-nombreyapellido">
+                      <div>
+                          <label for="nombre">Nombre</label>
+                          <input type="text" name="nombre">
+                      </div>
+                      <div>
+                          <label for="apellido">Apellido</label>
+                          <input type="text" name="apellido">
+                      </div>
+                  </div>
+                  <div class="pago-calle">
+                      <label for="calle">Calle</label>
+                      <input type="text" name="calle">
+                  </div>
+                  <div class="pago-lugar">
+                      <div>
+                          <label for="ciudad">Ciudad</label>
+                          <input type="text" name="ciudad">
+                      </div>
+                      <div>
+                          <label for="provincia">Provincia</label>
+                          <input type="text" name="provincia">
+                      </div>
+                      <div>
+                          <label for="codigopostal">Codigo Postal</label>
+                          <input type="text" name="codigopostal">
+                      </div>
+                  </div>
+                  <h3>
+                   Detalles de pago
+                  </h3>
+                  <div class="pago-tarjeta">
+                      <label for="tarjeta">Numero de Tarjeta</label>
+                      <input type="text" name="tarjeta">
+                  </div>
+                  <div class="pago-tarjeta-info">
+                      <div>
+                          <label for="info">Expiracion</label>
+                          <input type="text" name="info">
+                      </div>
+                      <div>
+                          <label for="ccv">CCV</label>
+                          <input type="text" name="ccv">
+                      </div>
+                  </div>
+                  <div class="botones">
+                      <button id="pago">Pagar</button>
+                      <button>Vueve al carrito</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+
+</main>
+     <!--Bootstrap de formulario de pago-->
+       
+        <!-- <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
               <label for="validationCustom01" class="form-label">First name</label>
               <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
@@ -122,7 +186,7 @@
             </div>
           </form>
 
-    </main>
+    </main> -->
     <footer>
         <img src="../img/logo.png" alt="logo"> <!--Logo-->
         <section>
